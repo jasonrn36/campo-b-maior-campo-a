@@ -12,7 +12,7 @@ btn.addEventListener('click', function(e) {
     const num1 = document.querySelector("#num-1");
     let campob = document.getElementById('#campoB')
     const num2 = document.querySelector("#num-2");
-    const mensagemErro = `O valor do campo: ${"campoB"} não é maior que o valor do: ${"campoA"}`; /* Esta mensagem é feita com Aspas SHIFT + ` */
+    const mensagemErro = `O valor do campo: ${"campoB"} NÃO é maior que o valor do: ${"campoA"}`; /* Esta mensagem é feita com Aspas SHIFT + ` */
     const mensagemSucesso = `=-=-=- Correto!! -=-=-= \nO valor do campo: ${"campoB"} É maior que o valor do: ${"campoA"}`; /* Esta mensagem é feita com Aspas SHIFT + `*/
     e.preventDefault();
     
